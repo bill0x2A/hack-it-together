@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import { app } from './config/firebase';
 
 export const App = () => (
   <ChakraProvider theme={theme}>
